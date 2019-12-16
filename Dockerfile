@@ -51,7 +51,7 @@ RUN dotnet help
 
 # Copy notebooks
 
-COPY ./NotebookExamples/ ${HOME}/notebooks/
+COPY ./notebooks/ ${HOME}/notebooks/
 
 # Copy package sources
 
